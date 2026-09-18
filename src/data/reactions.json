@@ -1,0 +1,349 @@
+[
+  {
+    "id": "happy_jump",
+    "animation": "jump",
+    "face": "happy",
+    "weight": 26,
+    "duration": 1100,
+    "sound": "pop",
+    "particles": ["✨", "💫"],
+    "messages": ["เย้! ทักมาอีกสิ", "วันนี้อารมณ์ดีจังเลย~", "โดดสูงไหม โดดสูงไหม", "หวัดดีตอนนี้เลย!"]
+  },
+  {
+    "id": "blush_wiggle",
+    "animation": "wiggle",
+    "face": "blush",
+    "weight": 18,
+    "duration": 1200,
+    "sound": "giggle",
+    "particles": ["💗"],
+    "messages": ["เขิ นน...", "จะจิ้มบ่อยไปไหนนน", "หน้าร้อนไปหมดแล้ว", "อย่ามองสิ~"]
+  },
+  {
+    "id": "curious_tilt",
+    "animation": "tilt",
+    "face": "surprised",
+    "weight": 16,
+    "duration": 1000,
+    "sound": "question",
+    "particles": ["❔"],
+    "messages": ["หืม? เรียกเหรอ", "มีอะไรให้ช่วยมั้ย", "เอ๊ะ ๆ", "ฟังอยู่นะ พูดมาเลย"]
+  },
+  {
+    "id": "giggle_squish",
+    "animation": "squish",
+    "face": "happy",
+    "weight": 16,
+    "duration": 900,
+    "sound": "boing",
+    "particles": ["😆"],
+    "messages": ["อุ๊ย จั๊กจี้!", "แบนแล้ววว", "นุ่มไหมล่ะ", "หยึย ๆ"]
+  },
+  {
+    "id": "love_float",
+    "animation": "float",
+    "face": "love",
+    "weight": 10,
+    "duration": 1400,
+    "sound": "sparkle",
+    "particles": ["💖", "💕"],
+    "messages": ["ชอบบบ", "อยู่ด้วยกันนาน ๆ นะ", "ใจฟูเลย", "วันนี้เธอน่ารักมาก"]
+  },
+  {
+    "id": "star_spin",
+    "animation": "spin",
+    "face": "star",
+    "weight": 9,
+    "duration": 1000,
+    "sound": "sparkle",
+    "particles": ["⭐", "✨"],
+    "messages": ["หมุนน~", "ดูสิ ดูสิ!", "ท่าไม้ตาย!", "วิ้ง ๆ"]
+  },
+  {
+    "id": "wink_hop",
+    "animation": "hop",
+    "face": "wink",
+    "weight": 12,
+    "duration": 1000,
+    "sound": "pop",
+    "particles": ["😉"],
+    "messages": ["เป็นความลับนะ", "รู้กันแค่เรานะ", "แอบชอบเธอนิดนึง", "เตะขาเล่น ๆ"]
+  },
+  {
+    "id": "shy_shake",
+    "animation": "shake",
+    "face": "pout",
+    "weight": 8,
+    "duration": 900,
+    "sound": "wobble",
+    "particles": ["💢"],
+    "messages": ["งอนแล้วนะ", "เบา ๆ หน่อยสิ", "ฮึ่ย!", "ไม่คุยด้วยแล้ว... ล้อเล่น"]
+  },
+  {
+    "id": "head_pat",
+    "animation": "squish",
+    "face": "blush",
+    "weight": 14,
+    "duration": 1100,
+    "sound": "chime",
+    "zones": ["head"],
+    "particles": ["💗", "✨"],
+    "messages": ["ลูบหัวอีกก", "สบายยย", "ชอบโดนลูบหัวที่สุด", "หลับตาเลย~"]
+  },
+  {
+    "id": "ear_flap",
+    "animation": "wiggle",
+    "face": "surprised",
+    "weight": 14,
+    "duration": 1000,
+    "sound": "boing",
+    "zones": ["ears"],
+    "particles": ["💨"],
+    "messages": ["หูจะขาดแล้ววว", "บินได้มั้ยเนี่ย", "อย่าดึงหูสิ!", "ตุ๊บ ๆ ๆ"]
+  },
+  {
+    "id": "belly_laugh",
+    "animation": "shake",
+    "face": "happy",
+    "weight": 14,
+    "duration": 1000,
+    "sound": "giggle",
+    "zones": ["belly"],
+    "particles": ["🤣"],
+    "messages": ["ท้องงง หยุดน้า", "ขำจนปวดท้อง", "พุงนุ่มใช่มั้ยล่ะ", "อิ่มอยู่นะ อย่าจิ้ม"]
+  },
+  {
+    "id": "tail_wag",
+    "animation": "hop",
+    "face": "happy",
+    "weight": 14,
+    "duration": 900,
+    "sound": "pop",
+    "zones": ["tail"],
+    "particles": ["💫"],
+    "messages": ["หางสั่นแล้ว!", "ดีใจจนหางแกว่ง", "จับหางไม่ได้นะ", "แงง~"]
+  },
+
+  {
+    "id": "idle_look_around",
+    "animation": "lookAround",
+    "face": "normal",
+    "weight": 0,
+    "idleWeight": 22,
+    "duration": 2200,
+    "messages": []
+  },
+  {
+    "id": "idle_ear_twitch",
+    "animation": "earTwitch",
+    "face": "normal",
+    "weight": 0,
+    "idleWeight": 18,
+    "duration": 1400,
+    "messages": []
+  },
+  {
+    "id": "idle_stretch",
+    "animation": "stretch",
+    "face": "happy",
+    "weight": 0,
+    "idleWeight": 14,
+    "duration": 2000,
+    "sound": "soft",
+    "messages": []
+  },
+  {
+    "id": "idle_hum",
+    "animation": "hum",
+    "face": "sing",
+    "weight": 0,
+    "idleWeight": 14,
+    "duration": 2600,
+    "sound": "note",
+    "particles": ["🎵", "🎶"],
+    "messages": []
+  },
+  {
+    "id": "idle_sway",
+    "animation": "sway",
+    "face": "happy",
+    "weight": 0,
+    "idleWeight": 16,
+    "duration": 2600,
+    "messages": []
+  },
+  {
+    "id": "idle_lean",
+    "animation": "lean",
+    "face": "normal",
+    "weight": 0,
+    "idleWeight": 12,
+    "duration": 1800,
+    "messages": []
+  },
+  {
+    "id": "idle_daydream",
+    "animation": "float",
+    "face": "peek",
+    "weight": 0,
+    "idleWeight": 8,
+    "duration": 2600,
+    "particles": ["☁️"],
+    "messages": []
+  },
+  {
+    "id": "idle_nod",
+    "animation": "nod",
+    "face": "happy",
+    "weight": 0,
+    "idleWeight": 10,
+    "duration": 1500,
+    "messages": []
+  },
+
+  {
+    "id": "greet_wave",
+    "animation": "hop",
+    "face": "happy",
+    "weight": 0,
+    "duration": 2600,
+    "sound": "chime",
+    "particles": ["👋", "✨"],
+    "messages": ["สวัสดี! ยินดีที่ได้รู้จักนะ ลองแตะที่ตัวเราสิ"]
+  },
+  {
+    "id": "milestone_party",
+    "animation": "party",
+    "face": "star",
+    "weight": 0,
+    "duration": 2600,
+    "sound": "fanfare",
+    "particles": ["🎉", "🎊", "✨", "⭐"],
+    "messages": ["เย้ ๆ ฉลองกันหน่อย!"]
+  },
+  {
+    "id": "dizzy_spin",
+    "animation": "spin",
+    "face": "dizzy",
+    "weight": 0,
+    "duration": 2000,
+    "sound": "wobble",
+    "particles": ["💫", "😵"],
+    "messages": ["หัวหมุนแล้ววว 〰", "ช้า ๆ หน่อยยย", "โอ๊ย จะอ้วก"]
+  },
+  {
+    "id": "sleepy_doze",
+    "animation": "sleep",
+    "face": "sleepy",
+    "weight": 0,
+    "duration": 8000,
+    "sound": "snore",
+    "particles": ["💤"],
+    "messages": ["zzz... หลับไปแล้ว", "งีบแป๊บนึงนะ..."]
+  },
+  {
+    "id": "night_yawn",
+    "animation": "float",
+    "face": "yawn",
+    "weight": 0,
+    "duration": 3000,
+    "sound": "snore",
+    "particles": ["💤"],
+    "messages": ["ดึกแล้วนะ นอนเถอะ", "ง่วงงง... ไปนอนพร้อมกันมั้ย"]
+  },
+  {
+    "id": "miss_you",
+    "animation": "float",
+    "face": "cry",
+    "weight": 0,
+    "duration": 3000,
+    "sound": "chime",
+    "particles": ["💧", "💗"],
+    "messages": ["หายไปไหนมา คิดถึงนะ", "รอตั้งนานแน่ะ!"]
+  },
+  {
+    "id": "morning_stretch",
+    "animation": "stretch",
+    "face": "happy",
+    "weight": 0,
+    "duration": 2600,
+    "sound": "sparkle",
+    "particles": ["☀️"],
+    "messages": ["อรุณสวัสดิ์! วันนี้สู้ ๆ นะ", "ตื่นเช้าจังเลย เก่งมาก"]
+  },
+
+  {
+    "id": "comfort_listen",
+    "animation": "nod",
+    "face": "worried",
+    "weight": 0,
+    "duration": 3200,
+    "sound": "soft",
+    "messages": []
+  },
+  {
+    "id": "comfort_hug",
+    "animation": "comfort",
+    "face": "warm",
+    "weight": 0,
+    "duration": 3400,
+    "sound": "hug",
+    "particles": ["💗"],
+    "messages": []
+  },
+  {
+    "id": "comfort_reach",
+    "animation": "reachOut",
+    "face": "sad",
+    "weight": 0,
+    "duration": 3200,
+    "sound": "sad",
+    "messages": []
+  },
+  {
+    "id": "comfort_lean",
+    "animation": "lean",
+    "face": "warm",
+    "weight": 0,
+    "duration": 3200,
+    "sound": "soft",
+    "messages": []
+  },
+  {
+    "id": "comfort_cheer",
+    "animation": "hop",
+    "face": "determined",
+    "weight": 0,
+    "duration": 3000,
+    "sound": "chime",
+    "particles": ["🌱", "✨"],
+    "messages": []
+  },
+  {
+    "id": "comfort_sing",
+    "animation": "hum",
+    "face": "sing",
+    "weight": 0,
+    "duration": 3400,
+    "sound": "note",
+    "particles": ["🎵", "🎶", "💗"],
+    "messages": []
+  },
+  {
+    "id": "comfort_sway",
+    "animation": "sway",
+    "face": "warm",
+    "weight": 0,
+    "duration": 3200,
+    "sound": "soft",
+    "messages": []
+  },
+  {
+    "id": "comfort_quiet",
+    "animation": "idle",
+    "face": "peek",
+    "weight": 0,
+    "duration": 3400,
+    "messages": []
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "first-visit",
+    "trigger": "firstVisit",
+    "reaction": "greet_wave",
+    "message": "สวัสดี เราชื่อโมจิ! ลองแตะที่หัว หู หรือพุงดูสิ"
+  },
+  {
+    "id": "return-after-3-days",
+    "trigger": "returnAfter",
+    "days": 3,
+    "reaction": "miss_you",
+    "message": "หายไปไหนมาตั้งหลายวัน คิดถึงนะ"
+  },
+  {
+    "id": "late-night",
+    "trigger": "timeOfDay",
+    "fromHour": 22,
+    "toHour": 5,
+    "reaction": "night_yawn",
+    "message": "ดึกแล้วนะ พักสายตาแล้วไปนอนเถอะ"
+  },
+  {
+    "id": "early-morning",
+    "trigger": "timeOfDay",
+    "fromHour": 5,
+    "toHour": 9,
+    "reaction": "morning_stretch",
+    "message": "อรุณสวัสดิ์! วันนี้ค่อย ๆ เป็นค่อย ๆ ไปนะ"
+  },
+
+  { "id": "m-10", "trigger": "clickCount", "at": 10, "reaction": "milestone_party", "message": "10 ครั้งแล้วนะ! เริ่มสนุกแล้ว" },
+  { "id": "m-25", "trigger": "clickCount", "at": 25, "reaction": "milestone_party", "message": "25 ครั้ง! ปลดล็อกฉากชายหาดแล้ว ลองเปิดเมนูดูสิ" },
+  { "id": "m-50", "trigger": "clickCount", "at": 50, "reaction": "milestone_party", "message": "ครึ่งร้อยแล้ว มือไม่เมื่อยเหรอ" },
+  { "id": "m-100", "trigger": "clickCount", "at": 100, "reaction": "milestone_party", "message": "100 ครั้ง! ปลดล็อกฉากท้องฟ้ากลางคืนแล้ว" },
+  { "id": "m-250", "trigger": "clickCount", "at": 250, "reaction": "milestone_party", "message": "250 ครั้ง! ปลดล็อกฉากคาเฟ่ ขอบคุณที่อยู่ด้วยกันนะ" },
+  { "id": "m-500", "trigger": "clickCount", "at": 500, "reaction": "milestone_party", "message": "500 ครั้ง! ปลดล็อกฉากซากุระ เธอคือเพื่อนสนิทเราแล้ว" },
+  { "id": "m-1000", "trigger": "clickCount", "at": 1000, "reaction": "milestone_party", "message": "หนึ่งพันครั้ง!! ปลดล็อกฉากอวกาศ ไปเที่ยวดาวกันมั้ย" },
+
+  {
+    "id": "rapid-tap",
+    "trigger": "rapidClick",
+    "threshold": 9,
+    "withinMs": 3000,
+    "reaction": "dizzy_spin",
+    "message": "โอ๊ยยย หัวหมุนแล้วว ช้าลงหน่อยได้มั้ย"
+  },
+  {
+    "id": "idle-sleep",
+    "trigger": "idle",
+    "afterMs": 35000,
+    "reaction": "sleepy_doze",
+    "message": "zzz... งีบแป๊บนึงนะ"
+  }
+]

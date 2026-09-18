@@ -1,0 +1,53 @@
+[
+  {
+    "id": "meadow",
+    "name": "ทุ่งหญ้า",
+    "scene": "meadow",
+    "sky": ["#BFE4FF", "#DFF3FF", "#FBF7E6"],
+    "unlockAt": 0
+  },
+  {
+    "id": "bedroom",
+    "name": "ห้องนอน",
+    "scene": "bedroom",
+    "sky": ["#FFE4EC", "#FFF1F4", "#FFF8F0"],
+    "unlockAt": 0
+  },
+  {
+    "id": "beach",
+    "name": "ชายหาด",
+    "scene": "beach",
+    "sky": ["#79CDF2", "#B9E9FF", "#FFEFC9"],
+    "unlockAt": 25
+  },
+  {
+    "id": "night",
+    "name": "ท้องฟ้ากลางคืน",
+    "scene": "night",
+    "sky": ["#141A45", "#2B2A63", "#54397A"],
+    "unlockAt": 100,
+    "dark": true
+  },
+  {
+    "id": "cafe",
+    "name": "คาเฟ่",
+    "scene": "cafe",
+    "sky": ["#E4D0B8", "#F2E4D3", "#FAF2E7"],
+    "unlockAt": 250
+  },
+  {
+    "id": "sakura",
+    "name": "ซากุระ",
+    "scene": "sakura",
+    "sky": ["#FFD2E2", "#FFE7F0", "#F4FBFF"],
+    "unlockAt": 500
+  },
+  {
+    "id": "space",
+    "name": "อวกาศ",
+    "scene": "space",
+    "sky": ["#080722", "#1E1749", "#432861"],
+    "unlockAt": 1000,
+    "dark": true
+  }
+]
