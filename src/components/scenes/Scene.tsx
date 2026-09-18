@@ -28,7 +28,7 @@ function Cloud({ x, y, s = 1, o = 0.9, speed = 26 }: { x: number; y: number; s?:
   );
 }
 
-function Tree({ x, y, s = 1, trunk = '#8A5A3B', leaf = '#5FB36A', leafDark = '#4A9A57' }) {
+function Tree({ x, y, s = 1, trunk = '#8A5A3B', leaf = '#5FB36A', leafDark = '#4A9A57' }: { x: number; y: number; s?: number; trunk?: string; leaf?: string; leafDark?: string }) {
   return (
     <g transform={`translate(${x} ${y}) scale(${s})`}>
       <rect x={-4} y={-22} width={8} height={26} rx={3} fill={trunk} />
